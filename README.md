@@ -8,11 +8,12 @@ of micro-services, it can serve as a central hub to pipe logs so that the busine
 # Features
 The features of flex-log are straight forward. 
 
-One way to filter logs is by key words filter against log lines.
+- One feature is to filter logs is by key words within the log lines.
 
-The second way is to transform the format of log to the targeted formatted you want. This requires basic knowledge of JSON
-data transformation.
+- The second feature is to transform the format of log to the targeted formatted you want. This requires basic knowledge of JSON data transformation.
 
 # Use
-The usage is as simple as `fl -p 9000 server.js` with the `-p` or `--port` to specify the UI the log center. For example, 
-`fl -p 9000 server.js` will run log center UI on port `9000` and `node server.js` as it is.
+The use is as simple as typing the command `fl -p ${PORT} server.js` with the `-p` or `--port` to specify the port for the log center UI. For example, `fl -p 9000 server.js` will run log center UI on port `9000` and `node server.js` as it is.
+
+# Installation
+`npm i @xuejie-yu/flex-log`
